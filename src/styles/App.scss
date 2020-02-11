@@ -1,0 +1,28 @@
+@import "./Config";
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
+	color: $bodyColor;
+}
+
+body,
+#root,
+.App {
+	height: 100vh;
+}
+
+.App {
+	display: flex;
+	flex-direction: column;
+}
+
+.bar-element-list__container {
+	flex: 1;
+}
+
+.bar-element-list__row {
+	height: 100%;
+}

@@ -1,0 +1,22 @@
+.button {
+	background-color: $primaryColor;
+	color: white;
+}
+
+.button--medium {
+	font-weight: bold;
+	font-size: 0.75rem;
+	padding: 0.5rem 0.75rem;
+}
+
+.button--large {
+	font-weight: bold;
+	font-size: 1rem;
+	padding: 0.75rem 1rem;
+}
+
+.button--x-large {
+	font-weight: bold;
+	font-size: 1.25rem;
+	padding: 1rem 1.5rem;
+}

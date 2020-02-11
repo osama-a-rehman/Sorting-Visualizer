@@ -1,0 +1,10 @@
+$primaryColor: #34495f;
+$secondaryColor: #ecf0f1;
+
+$bodyBackgroundColor: #f2f2f2;
+$bodyColor: $primaryColor;
+
+@import "./Button";
+@import "./Header";
+@import "./BarElementList";
+@import "./BarElement";
