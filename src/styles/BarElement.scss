@@ -1,18 +1,22 @@
 .bar-element {
-	@extend .bar-element--default;
+  @extend .bar-element--default;
 
-	display: inline-block;
-	margin-right: 2px;
-	text-align: center;
-	padding-top: 1rem;
-	color: white;
-	font-weight: bold;
+  display: inline-block;
+  margin-right: 2px;
+  text-align: center;
+  padding-top: 1rem;
+  color: white;
+  font-weight: bold;
 }
 
 .bar-element--default {
-	background-color: #0f8aa6;
+  background-color: #0f8aa6;
 }
 
 .bar-element--active {
-	background-color: #303af2;
+  background-color: #303af2;
+}
+
+.bar-element--swapped {
+  background-color: red;
 }
